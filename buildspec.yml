@@ -11,6 +11,6 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/sample-1.0-SNAPSHOT.jar
+    - sample/target/sample-1.0-SNAPSHOT.jar
     - appspec.yml
   discard-paths: yes
